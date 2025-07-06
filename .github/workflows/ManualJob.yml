@@ -5,6 +5,9 @@ jobs:
     runs-on: windows-2025
     steps:
     - name: Print MyName
-      run: echo "Dinesh Pallagani"
+      run: |
+        echo "Dinesh"
+        echo "Pallagani"
+        echo "2025"
     - name: Print dayToday
       run: echo "Sunday"
