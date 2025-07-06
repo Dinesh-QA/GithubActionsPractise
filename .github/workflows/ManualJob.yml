@@ -1,0 +1,10 @@
+name: Manual Trigger Job
+on: workflow_dispatch
+jobs: 
+  manulTrigger_Job: 
+    runs-on: windows-2025
+    steps:
+    - name: Print MyName
+      run: echo "Dinesh Pallagani"
+    - name: Print dayToday
+      run: echo "Sunday"
